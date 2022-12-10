@@ -47,7 +47,6 @@ fun main() {
                 visited.add(tPos.copy())
             }
         }
-        println(visited.size)
         return visited.size
     }
 
@@ -83,7 +82,6 @@ fun main() {
                 visited.add(tPos[8].copy())
             }
         }
-        println(visited.size)
         return visited.size
     }
 
