@@ -1,6 +1,6 @@
-const val DIVIDERS_MULTIPIED = (2 * 3 * 5 * 7 * 11 * 13 * 17 * 19 * 23)
-
 fun main() {
+
+    val DIVIDERS_MULTIPIED = (2 * 3 * 5 * 7 * 11 * 13 * 17 * 19 * 23)
 
     data class Monkey (val id: Int) {
         val items: MutableList<Long> = mutableListOf()
